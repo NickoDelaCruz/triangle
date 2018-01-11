@@ -8,8 +8,40 @@
     <title>Triangle Tracker</title>
   </head>
   <body>
-    <div class="jumbotron">
+        <div class="jumbotron">
+          <h1>Enter your triangle sides!</h1>
+          <br></br>
+        <form id="triangleTracker">
+          <div class="form-triangle">
+           <label for="digit1">What is side 1?</label>
+           <input id="digit1" class="form-triangle" type="number">
+         </div>
+         <div class="form-triangle">
+          <label for="digit2">What is side 2?</label>
+          <input id="digit2" class="form-triangle" type="number">
+        </div>
+        <div class="form-triangle">
+         <label for="digit3">What is side 3?</label>
+         <input id="digit3" class="form-triangle" type="number">
+       </div>
+       <br></br>
+       <button type="submit" class="btn">Submit!</button>
+     </form>
+     </div>
 
-    </div>
+      </div>
+      <h1>Triangle Type :</h1>
+        <div id="equal">
+        <h1> You got an equilateral!! </h1>
+      </div>
+      <div id="iso">
+        <h1> You got an isosceles triangle </h1>
+      </div>
+      <div id="scale">
+         <h1> You got a scalene triangle </h1>
+      </div>
+      <div id="none">
+        <h1> No triangle found </h1>
+      </div>
   </body>
 </html>
